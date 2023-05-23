@@ -15,15 +15,12 @@ def string_fun(string):
     # Do not change the code before this
 
     # CODE1: Write code that will assign details with the appropriate tuple
-    details = "Reuben 123"
-    lname = "Germain!"
-    pet = "My dog is not feeling well".replace("", "-")
-    return details, lname, pet
+    details = string_fun
 
-    result = string_fun(string)
-
-    print(result)
-
+    first_element = string.isalpha()
+    second_element = string.endswith('!')
+    third_element = string.replace(' ', '-')
+    return (first_element, second_element, third_element)
     # ====================================
     # Do not change the code after this
 
