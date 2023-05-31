@@ -14,9 +14,8 @@ def append(the_list, item):
     # Do not change the code before this
 
     # CODE1: Fix the code below to correctly append item to the_list
-    new_list = the_list
-    new_list = new_list + [item]
-    the_list = new_list
+
+    the_list.append(item)
 
     # ====================================
     # Do not change the code after this
